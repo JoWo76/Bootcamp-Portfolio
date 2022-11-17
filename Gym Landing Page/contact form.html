@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<body> 
+   <h1>CONTACT US</h1> 
+   <p>Please fill in your details below.</p>
+   <form action="#" method="get">
+    <fieldset>
+    <div>
+        <label for="title">Title:</label>
+        <label for="Mr">Mr</label>
+        <input type="radio" id="Mr" name="title" value="Mr">
+        <label for="Mrs">Mrs</label>
+        <input type="radio" id="Mrs" name="title" value="Mrs">
+        <label for="Miss">Miss</label>
+        <input type="radio" id="Miss" name="title" value="Miss">
+        <label for="Ms">Ms</label>
+        <input type="radio" id="Ms" name="title" value="Ms">
+    </div>
+        <p>
+            <label for="firstname">First Name:</label>
+            <input type="text"name="firstname"
+            id="firstname"placeholder="Jane" required>
+            <label for="lastname">Last Name:</label>
+            <input type="text"name="lastname"
+            id="lasttname"placeholder="Doe" required>
+        </p>
+        <p>
+            <label for="phone">Home Phone:</label>
+            <input type="tel"name="phone"
+            id="phone"placeholder="00000000000" required>
+            <label for="phone">Mobile Phone:</label>
+            <input type="tel"name="phone"
+            id="phone"placeholder="00000000000" pattern="[0-9]{5}[0-9]{6}">
+        </p>
+        <p>
+            <label for="email">Email Address:</label>
+            <input type="email"name="email address"
+            id="email address"placeholder="jane@xxxx.com">
+        </p>
+        <p>
+            <label for="bdate">Date of Birth:</label>
+            <input type="date"name="bdate"
+            id="bdate"placeholder="xx">
+        </p>
+        <p><textarea name="comment" placeholder="Type your comment"></textarea></p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+<footer>*****The Gym*****</footer>
+</html>
