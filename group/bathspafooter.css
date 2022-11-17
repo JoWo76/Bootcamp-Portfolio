@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ *{
+    font-family: 'Poppins', sans-serif;
+        margin:0;
+        padding:0;
+}
+#contactpng{
+    width:80vh;
+    height:60vh;
+    display:flex;
+}
+form{
+    font-size:30px;
+    padding: 50px;
+}
+.formandpicrow{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    margin:60px;
+}
+.tile{
+    padding:30px 30px;
+    display:flex;
+    align-items: center;
+}
+input{
+    width:50vh;
+    margin: 10px 0px 0px 0px;
+    padding:20px;
+    border-color: #FFD7E0;
+    border-style: solid;
+    background-color: white;
+    font-size:20px;
+}
+button{
+    padding:20px;
+    font-size:20px;
+    border-color: #E29AA8;
+    background-color: white;
+    border-style: solid;
+    margin:10px 10px 0px 0px;
+    width:24.2vh;
+}
+h3{
+    font-size:40px;
+}
+a{
+    text-decoration: none;
+}
+.flex-table{
+    margin:30px 30px 30px 130px;
+}
+table{
+    width:90vh;
+}
+thead{
+    text-align: left;
+}
+.thead{
+    color: #F67C92;
+    font-size: 18px;
+}
+.tbody{
+    color: #797979;
+    font-size: 14px;
+}
+li{list-style: none;
+color:black;
+}
+.footerrow{
+    display:flex;
+    flex-direction:row;
+}
+#logo{
+    width:100px;
+    height:50px;
+    margin-bottom: 40px;
+}
+.flex-contact{
+    display:flex;
+    flex-direction:row;
+    font-size:16px;
+}
+.flex-logo{
+    display:flex;
+ margin:0px 200px;
+}
+.hrfooter{
+    margin:0px 100px;
+}
+.english{
+    padding:10px 30px;
+    font-size:16px;
+    border-color: #E29AA8;
+    background-color: white;
+    border-style: solid;
+    width:26vh;
+}
+.WDB{text-decoration-line: underline;}
+#square{
+    width:55px;
+    height:45px;
+    margin:50px 0px 0px 0px;
+}
+#socialmedia{height:30px;
+width:30px;
+padding:20px;}
+
+#stickynavbar{display:flex;
+    margin:300px 0px 0px 0px;
+    padding:20px;
+    position:fixed;
+}
+#stickynavbar ul li{
+  margin:40px 0px 30px 0px;  
+}
+

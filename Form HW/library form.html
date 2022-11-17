@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library registration form</title>
+</head>
+<body>
+    <nav>
+        <a href="contact.html">Contact Us</a>
+        <a href="contact.html">FAQ</a>
+        <a href="contact.html">Help</a>
+    </nav>
+    <br>
+    <img src="https://www.realsimple.com/thmb/thvtdQnvrLbSRe0Ah_Vgn8knr8w=/2000x1125/smart/filters:no_upscale():focal(959x719:961x721)/great-books-for-anytime-2000-4ff4221eb1e54b659689fef7d5e265d5.jpg" width="450" height="250" alt="books">
+   
+   <h1>South Coast Libraries</h1> 
+   <h3>Online Registration</h3>
+   <p>To register please fill in your personal details below.</p>
+   <form action="https://httpbin.org/get" method="get">
+    <fieldset>
+        <legend>Personal Info</legend>
+    <div>
+        <label for="title">Title:</label>
+        <label for="Mr">Mr</label>
+        <input type="radio" id="Mr" name="title" value="Mr">
+        <label for="Mrs">Mrs</label>
+        <input type="radio" id="Mrs" name="title" value="Mrs">
+        <label for="Miss">Miss</label>
+        <input type="radio" id="Miss" name="title" value="Miss">
+        <label for="Ms">Ms</label>
+        <input type="radio" id="Ms" name="title" value="Ms">
+    </div>
+        <p>
+            <label for="firstname">First Name:</label>
+            <input type="text"name="firstname"
+            id="firstname"placeholder="Jane" required>
+            <label for="lastname">Last Name:</label>
+            <input type="text"name="lastname"
+            id="lasttname"placeholder="Doe" required>
+        </p>
+        <p>
+            <label for="phone">Home Phone:</label>
+            <input type="tel"name="phone"
+            id="phone"placeholder="00000000000" required>
+            <label for="phone">Mobile Phone:</label>
+            <input type="tel"name="phone"
+            id="phone"placeholder="00000000000" pattern="[0-9]{5}[0-9]{6}">
+        </p>
+        <p>
+            <label for="email">Email Address:</label>
+            <input type="email"name="email address"
+            id="email address"placeholder="jane@xxxx.com">
+        </p>
+        <p>
+            <label for="bdate">Date of Birth:</label>
+            <input type="date"name="bdate"
+            id="bdate"placeholder="xx">
+        </p>
+        <p>
+            <label for="Addressline1">Address line 1:</label>
+            <input type="text"name="addressline1"
+            id="addressline1"placeholder="123 My Street">
+        </p>
+        <p>
+            <label for="addressline2">Address line 2:</label>
+            <input type="text"name="addressline2"
+            id="addressline2"placeholder="********" required>
+        </p>
+        <p>
+            <label for="addressline3">Town/City:</label>
+            <input type="text"name="addressline3"
+            id="addressline3"placeholder="Great City">
+        </p>
+        <p>
+            <label for="addressline4">Postcode:</label>
+            <input type="text"name="Addressline4"
+             id="addressline4"placeholder="AB11 1AB" required>
+        </p>
+        <p>
+            <label for="password">Create Password:</label>
+            <input type="password"name="password"
+            id="password"placeholder="***********" required>
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Preferences</legend>
+        <p>
+            <label for="book genre">Favourite Book Genre:</label>
+            <select name="book genre" id="book genre">
+                <option value="thriller">Thriller</option>
+                <option value="romance">Romance</option>
+                <option value="historical">Historical</option>
+                <option value="adventure">Adventure</option>
+                <option value="nonfiction">Non Fiction</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+        <p>
+            <label for="library">Preferred Library:</label>
+            <select name="library" id="library">
+                <option value="bournemouth">Bournemouth</option>
+                <option value="christchurch">Christchurch</option>
+                <option value="southbourne">Southbourne</option>
+                <option value="poole">Poole</option>
+            </select>
+        </p>
+    </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+<br>
+    <a href="https://www.tesco.com/help/terms-and-conditions/">Terms and Conditions</a>
+                <label for="tandc">Please confirm you have read and accepted the Terms and Conditions</label>
+                <input type="checkbox" id="tandc" name="tandc" value="tandc">
+    <br>
+    <hr>
+</body>
+<footer>*****South Coast Libraries*****</footer>
+</html>
+
+   
